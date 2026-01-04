@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About us</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <section class="sub-header">
+        <nav>
+            <a href="index.html"><img src="main logo.png"></a>
+            <div class="nav_links" id="navLinks">
+                <i class="fa-solid fa-xmark" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="course.html">Course</a></li>
+                    <li><a href="Blog.html">Blog</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </div>
+            <i class="fa-solid fa-list" onclick="showMenu()"></i>
+        </nav>
+        <h1>About us</h1>
+    </section>
+
+
+    <!----------about us content-------->
+
+    <section class="about-us">
+        <div class="about-row">
+            <div class="about-col">
+                <h1>We are the world's largest university</h1>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Atque modi magnam nam, perspiciatis nostrum eveniet impedit quos tempore architecto ducimus. Dicta quos a aut asperiores quidem, vero ab delectus veritatis.
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Soluta, numquam aliquam corporis rem sed culpa explicabo vero sequi reprehenderit illo maiores illum iusto accusantium consequuntur unde doloribus repudiandae nemo mollitia?
+                </p>
+                <a href="" class="hero-btn">EXPLORE US</a>
+            </div>
+            <div class="about-col">
+                <img src="about.jpg">
+            </div>
+        </div>
+    </section>
+
+    <!-----javascript toggle menu----->
+
+    <script>
+        var navLinks=document.getElementById("navLinks");
+        function showMenu(){
+            navLinks.style.right = "0";
+        }
+        function hideMenu(){
+            navLinks.style.right = "-200px";
+        }
+    </script>
+
+    <!----footer------>
+
+    <section class="footer">
+        <h4>About us</h4>
+        <p>We’re a leading research university with a heart.<br> Founded in the decade that the U.S. Constitution was signed, we’re the nation’s oldest Catholic and Jesuit university.<br> We’re a community of people who bridge our disparate experiences and identities. Meet the people and places that make Eduford home.</p>
+        <div class="icons">
+            <i class="fa-brands fa-facebook"></i>
+            <i class="fa-brands fa-instagram"></i>
+            <i class="fa-brands fa-twitter"></i>
+            <i class="fa-brands fa-square-linkedin"></i>
+        </div>
+        <p>Made by <i class="fa-solid fa-face-smile"></i> Muhammad Bilal</p>
+    </section>
+</body>
+</html>

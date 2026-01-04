@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Courses</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <section class="sub-header">
+        <nav>
+            <a href="index.html"><img src="main logo.png"></a>
+            <div class="nav_links" id="navLinks">
+                <i class="fa-solid fa-xmark" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="course.html">Course</a></li>
+                    <li><a href="Blog.html">Blog</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </div>
+            <i class="fa-solid fa-list" onclick="showMenu()"></i>
+        </nav>
+        <h1>Our Courses</h1>
+    </section>
+
+
+    <!----------course-------->
+    
+        <section class="course">
+        <h1>Courses we offer</h1>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem est quisquam culpa vel saepe omnis</p>
+
+        <div class="row">
+            <div class="col">
+                <h3>Undergraduate</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Necessitatibus veniam recusandae omnis porro, temporibus voluptate animi illum eius vero alias vel enim nam facere, perferendis velit, fuga deleniti beatae magnam.</p>
+            </div>
+            <div class="col">
+                <h3>Graduate</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Necessitatibus veniam recusandae omnis porro, temporibus voluptate animi illum eius vero alias vel enim nam facere, perferendis velit, fuga deleniti beatae magnam.</p>
+            </div>
+            <div class="col">
+                <h3>Post Graduation</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Necessitatibus veniam recusandae omnis porro, temporibus voluptate animi illum eius vero alias vel enim nam facere, perferendis velit, fuga deleniti beatae magnam.</p>
+            </div> 
+        </div>
+    </section>
+
+    <!---------our facilities-------->
+
+        <section class="facilities">
+        <h1>Our Facilities</h1>
+        <p>We commit to meet the financial need of every admitted undergraduate student. We don’t consider your ability <br>to pay when we review your application, and we don’t base our decision on whether you can cover the cost. If you’re accepted here, you belong here.</p>
+
+        <div class="facilities-row">
+            <div class="facilities-col">
+                <img src="library.png">
+                <h3>Undergraduate Programs</h3>
+                <p>For decades, Eduford College has improved the health of our communities, one graduate at a time.The JoAnn McGrath School of Nursing and Health Professions, as one of the largest nursing schools in Wisconsin.</p>
+            </div>
+             <div class="facilities-col">
+                <img src="basketball.png">
+                <h3>Graduate Programs</h3>
+                <p>For decades, Eduford College has improved the health of our communities, one graduate at a time. The JoAnn McGrath School of Nursing and Health Professions, as one of the largest nursing schools in Wisconsin.</p>
+            </div>
+             <div class="facilities-col">
+                <img src="cafeteria.png">
+                <h3>Post Graduation</h3>
+                <p>For decades, Eduford College has improved the health of our communities, one graduate at a time. The JoAnn McGrath School of Nursing and Health Professions, as one of the largest nursing schools in Wisconsin.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-----javascript toggle menu----->
+
+    <script>
+        var navLinks=document.getElementById("navLinks");
+        function showMenu(){
+            navLinks.style.right = "0";
+        }
+        function hideMenu(){
+            navLinks.style.right = "-200px";
+        }
+    </script>
+
+    <!----footer------>
+
+    <section class="footer">
+        <h4>About us</h4>
+        <p>We’re a leading research university with a heart.<br> Founded in the decade that the U.S. Constitution was signed, we’re the nation’s oldest Catholic and Jesuit university.<br> We’re a community of people who bridge our disparate experiences and identities. Meet the people and places that make Eduford home.</p>
+        <div class="icons">
+            <i class="fa-brands fa-facebook"></i>
+            <i class="fa-brands fa-instagram"></i>
+            <i class="fa-brands fa-twitter"></i>
+            <i class="fa-brands fa-square-linkedin"></i>
+        </div>
+        <p>Made by <i class="fa-solid fa-face-smile"></i> Muhammad Bilal</p>
+    </section>
+</body>
+</html>

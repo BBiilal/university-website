@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blog</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <section class="sub-header">
+        <nav>
+            <a href="index.html"><img src="main logo.png"></a>
+            <div class="nav_links" id="navLinks">
+                <i class="fa-solid fa-xmark" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="course.html">Course</a></li>
+                    <li><a href="Blog.html">Blog</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </div>
+            <i class="fa-solid fa-list" onclick="showMenu()"></i>
+        </nav>
+        <h1>Our Certificate & Online Programs For 2026</h1>
+    </section>
+
+
+    <!--------blog------->
+
+    <section class="blog">
+        <div class="blog-row">
+            <div class="blog-left">
+                <img src="certificate.jpg">
+                <h2>Our Certificates & online programs for 2026</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur sapiente sed doloribus provident sit voluptates illo suscipit laborum iusto? Ex dolores, cumque non a nam similique minus corrupti facilis atque!
+                Similique nulla voluptatem voluptates animi inventore ut saepe iusto quas tempore corporis voluptate, fuga fugiat reprehenderit sit? Consequuntur adipisci accusamus repellendus laudantium ipsam officia cum minima, consequatur eaque, distinctio soluta!
+                Ducimus maxime blanditiis eligendi, rem, harum officiis tenetur reiciendis deleniti, facere quibusdam animi. Sunt nisi facilis enim quidem provident vero blanditiis repudiandae dolore facere. Obcaecati, delectus. Aperiam temporibus libero ratione.
+                Illum eos alias deleniti ab officia ratione architecto quam repellat dolorem saepe atque tempore, quia eligendi explicabo, autem necessitatibus neque veniam voluptatem ex. Illum alias culpa assumenda aliquam ut velit!<br><br><br>
+                Laboriosam, obcaecati veniam. Esse iste ipsam nostrum voluptates expedita minima magnam non ut ipsum inventore dignissimos ex eligendi, fugit qui? Ipsa, excepturi. Autem blanditiis unde necessitatibus sed neque fuga commodi.Lorem ipsum dolor, sit amet consectetur adipisicing elit. Alias ipsam aliquam cum neque tenetur voluptatibus excepturi dignissimos quidem repudiandae? Nihil cum nisi maxime et architecto dolore exercitationem itaque cupiditate ipsa!<br><br><br>
+                Sint consectetur quam adipisci veritatis veniam obcaecati enim doloremque modi iure aperiam delectus, optio ut. Libero, mollitia earum. Animi, asperiores quas voluptatem similique incidunt quae suscipit dolore dicta cupiditate ea?
+                Quidem, quod totam. Quisquam odio nihil, magni beatae autem aut fugit voluptatum eius incidunt earum magnam cupiditate laboriosam cum aspernatur aliquid temporibus! Neque a vel hic porro distinctio eaque! Laborum.
+                Dolorum molestias sapiente eius nam. Obcaecati a exercitationem neque culpa esse harum, mollitia eius alias omnis sapiente officiis explicabo placeat quae molestias, amet fugiat saepe nostrum voluptatum rerum quaerat illo?
+                Unde iusto ab sint quasi est quidem at dicta, accusamus pariatur repellendus sit nihil beatae cupiditate incidunt laboriosam sapiente rem adipisci ipsa minima libero quaerat sequi nemo quam! Soluta, debitis.</p>
+
+                <div class="comment-box">
+                    <h3>Leave a Comment</h3>
+                    <form>
+                        <input type="text" placeholder="Enter Your Name ">
+                        <input type="text" placeholder="Enter Your Email">
+                        <textarea rows="5" placeholder="Your Comment"></textarea>
+                        <button type="submit" class="hero-btn">Post Comment</button>
+                    </form>
+                </div>
+            </div>
+            <div class="blog-right">
+                <h3>Business Categories</h3>
+                <div>
+                    <span>Data analytics</span>
+                    <span>80</span>
+                </div>
+                 <div>
+                    <span>Web developer</span>
+                    <span>37</span>
+                </div>
+                 <div>
+                    <span>App developer</span>
+                    <span>78</span>
+                </div>
+                 <div>
+                    <span>Cyber security</span>
+                    <span>40</span>
+                </div>
+                 <div>
+                    <span>Software Engineering</span>
+                    <span>50</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+    <!-----javascript toggle menu----->
+
+    <script>
+        var navLinks=document.getElementById("navLinks");
+        function showMenu(){
+            navLinks.style.right = "0";
+        }
+        function hideMenu(){
+            navLinks.style.right = "-200px";
+        }
+    </script>
+
+    <!----footer------>
+
+    <section class="footer">
+        <h4>About us</h4>
+        <p>We’re a leading research university with a heart.<br> Founded in the decade that the U.S. Constitution was signed, we’re the nation’s oldest Catholic and Jesuit university.<br> We’re a community of people who bridge our disparate experiences and identities. Meet the people and places that make Eduford home.</p>
+        <div class="icons">
+            <i class="fa-brands fa-facebook"></i>
+            <i class="fa-brands fa-instagram"></i>
+            <i class="fa-brands fa-twitter"></i>
+            <i class="fa-brands fa-square-linkedin"></i>
+        </div>
+        <p>Made by <i class="fa-solid fa-face-smile"></i> Muhammad Bilal</p>
+    </section>
+</body>
+</html>
